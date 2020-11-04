@@ -12,8 +12,26 @@ Os pido por favor que si no os funciona algo reviseis bien lo que habeis hecho p
 
 Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preguntas varias, pero tengo una vida aparte de este canal como cualquiera de vosotros. Así que si muchas veces me demoro más de lo que esperais os pido disculpas.
 
-
-### Interruptores de pared que yo utilizo:
- - SONOFF T0EU1C: https://www.amazon.es/Interruptor-Inal%C3%A1mbrico-Inteligente-Soluciones-Automatizaci%C3%B3n/dp/B07T41P13Y/ref=sr_1_3_sspa?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=NTQVHIJQDLAW&dchild=1&keywords=sonoff+interruptor+wifi&qid=1604522558&sprefix=sonoff+inte%2Caps%2C181&sr=8-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyQkNOR0xHRkhNME5JJmVuY3J5cHRlZElkPUEwMzcxMzMwMVlNN04zNzNTNUtLNCZlbmNyeXB0ZWRBZElkPUEwNTQ4NDgyM1A1TllHRjJKOTI4MCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+## DISPOSITIVOS DOMOTICOS QUE UTILIZO EN LA ACTUALIDA
+### Interruptores:
+ - SONOFF T0EU1C
+ - SONOFF T0EU2C
+ - SONOFF T1EU1C
+ - SONOFF T1EU2C
+ Todos ellos los podeis encontrar en webs como Amazón
+ 
+ ### Bombillas:
+ - Bombilla led inteligente TVLIVE: https://www.amazon.es/gp/product/B07STY857D/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+ 
+ ### Camaras:
+ - Tapo tplink C200: https://www.tp-link.com/es/home-networking/cloud-camera/tapo-c200/
+ 
+ ### Broadlink para control remoto:
+ - Broadlink RM4 pro
+ - Broadlink RM-MINI3
+ 
+ ### Altavoces inteligentes:
+ - Amazon Echo Dot (3ª Generación)
+ - Google Nest Mini (2ª Generación)
 
   [1]: https://www.youtube.com/channel/UCMddiVH-CzGZ97sVgZrKg6A
