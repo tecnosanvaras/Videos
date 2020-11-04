@@ -1,4 +1,4 @@
-Tecnosanvaras en YouTube
+[Tecnosanvaras en YouTube][1]
 =======================================
 # Floorplan
 Plano de casa en 3D para integrar en Home Assistant
@@ -10,4 +10,4 @@ Aquí podeis encontrar las fotos realizadas para este proyecto de prueba así co
 Lista de la compra recomendada por Sanvaras:
 =======================================
 
-  https://www.youtube.com/channel/UCMddiVH-CzGZ97sVgZrKg6A
+  [1]: https://www.youtube.com/channel/UCMddiVH-CzGZ97sVgZrKg6A
