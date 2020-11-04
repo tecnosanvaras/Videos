@@ -12,7 +12,7 @@ Os pido por favor que si no os funciona algo reviseis bien lo que habeis hecho p
 
 Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preguntas varias, pero tengo una vida aparte de este canal como cualquiera de vosotros. Así que si muchas veces me demoro más de lo que esperais os pido disculpas.
 
-## DISPOSITIVOS DOMOTICOS QUE UTILIZO EN LA ACTUALIDA
+## DISPOSITIVOS DOMOTICOS QUE UTILIZO EN LA ACTUALIDAD
 ### Interruptores:
  - SONOFF T0EU1C
  - SONOFF T0EU2C
@@ -33,5 +33,30 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
  ### Altavoces inteligentes:
  - Amazon Echo Dot (3ª Generación)
  - Google Nest Mini (2ª Generación)
+ 
+ ### Dispositivos para control de luces, persianas:
+ - Shelly 2.5
+ - Sonoff mini
+ 
+ ### Wifi MESH
+  - TP-Link AC1200 M4: https://www.amazon.es/gp/product/B07KJ2TDMR/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+  
+ ### Regletas
+ - Regleta Meross: https://www.amazon.es/gp/product/B07PMWYNSW/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+
+## DISPOSITIVOS QUE UTILIZO PARA LA REALIZACIÓN DE LOS VIDEOS
+- Raspberry Pi 3B+
+- Intel NUC7CJYH
+- Cámara utilizada para la grabación de los videos: Iphone X
+- TechSmith Camtasia: Montaje de vídeos
+- Adaptador de disco duro USB 3.0 A SSD: https://www.amazon.es/gp/product/B011M8YACM/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
+- Disco duro Kingston 240GB: https://www.amazon.es/gp/product/B0745CBCLK/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+
+
+## DISPOSITIVOS PARA FLASHEO (Tasmota, Zigbee)
+- Convertidor CP2102: https://www.amazon.es/gp/product/B072K3Z3TL/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1
+- Kit Emulador Zigbee: https://es.aliexpress.com/item/4000439492385.html?spm=a2g0s.9042311.0.0.3ed763c0oLvGNP
+
+
 
   [1]: https://www.youtube.com/channel/UCMddiVH-CzGZ97sVgZrKg6A
