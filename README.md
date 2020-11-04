@@ -34,6 +34,10 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
  - Amazon Echo Dot (3ª Generación)
  - Google Nest Mini (2ª Generación)
  
+ ### Sensores:
+ - Sensor de puerta Koogeek (NO RECOMENDADO): https://www.amazon.es/gp/product/B07Y4QPGN5/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
+ - Sensor de temperatura y humedad Xiaomi: https://es.aliexpress.com/item/32825625925.html?spm=a2g0o.productlist.0.0.703d348fDbrv49&algo_pvid=daebfec2-fcf7-4223-a8db-456397e2aeaa&algo_expid=daebfec2-fcf7-4223-a8db-456397e2aeaa-25&btsid=2100bde116045247681226604edc63&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
+ 
  ### Dispositivos para control de luces, persianas:
  - Shelly 2.5
  - Sonoff mini
