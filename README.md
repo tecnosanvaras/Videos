@@ -18,6 +18,7 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
  - SONOFF T0EU2C
  - SONOFF T1EU1C
  - SONOFF T1EU2C
+ 
  Todos ellos los podeis encontrar en webs como Amazón
  
  ### Bombillas:
