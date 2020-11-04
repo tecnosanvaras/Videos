@@ -22,6 +22,7 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
  
  ### Bombillas:
  - Bombilla led inteligente TVLIVE: https://www.amazon.es/gp/product/B07STY857D/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+ - Bombillas LVWIT: https://www.amazon.es/gp/product/B07YKF9HZ2/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1
  
  ### Camaras:
  - Tapo tplink C200: https://www.tp-link.com/es/home-networking/cloud-camera/tapo-c200/
@@ -39,8 +40,8 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
  - Sensor de temperatura y humedad Xiaomi: https://es.aliexpress.com/item/32825625925.html?spm=a2g0o.productlist.0.0.703d348fDbrv49&algo_pvid=daebfec2-fcf7-4223-a8db-456397e2aeaa&algo_expid=daebfec2-fcf7-4223-a8db-456397e2aeaa-25&btsid=2100bde116045247681226604edc63&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
  
  ### Dispositivos para control de luces, persianas:
- - Shelly 2.5
- - Sonoff mini
+ - Shelly 2.5: https://shellyspain.com/index.php?id_product=259&rewrite=shelly-25&controller=product&id_lang=1
+ - Sonoff mini: https://www.amazon.es/gp/product/B07WS5BZQW/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1
  
  ### Wifi MESH
   - TP-Link AC1200 M4: https://www.amazon.es/gp/product/B07KJ2TDMR/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
