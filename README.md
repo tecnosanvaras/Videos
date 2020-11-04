@@ -7,7 +7,6 @@ Aquí podeis encontrar las fotos realizadas para este proyecto de prueba así co
 
 ### Prueba
 
-Lista de la compra recomendada por Sanvaras:
-=======================================
+
 
   [1]: https://www.youtube.com/channel/UCMddiVH-CzGZ97sVgZrKg6A
