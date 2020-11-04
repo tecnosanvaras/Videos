@@ -1,5 +1,7 @@
 [Tecnosanvaras en YouTube][1]
 =======================================
+![Domótica Fácil con Jota en YouTube]
+
 # Floorplan
 Plano de casa en 3D para integrar en Home Assistant
 
