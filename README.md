@@ -48,6 +48,7 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
 - Raspberry Pi 3B+
 - Intel NUC7CJYH
 - Cámara utilizada para la grabación de los videos: Iphone X
+- Microfono de solapa: https://www.amazon.es/gp/product/B01G16LSVQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 - TechSmith Camtasia: Montaje de vídeos
 - Adaptador de disco duro USB 3.0 A SSD: https://www.amazon.es/gp/product/B011M8YACM/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
 - Disco duro Kingston 240GB: https://www.amazon.es/gp/product/B0745CBCLK/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
