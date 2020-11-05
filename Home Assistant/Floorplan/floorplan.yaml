@@ -193,3 +193,27 @@ elements:
       top: 30%
     tap_action:
       action: toggle
+      
+      
+### Si quereis añadir un icono de tiempo (Hay que modificar los datos según lo que cada uno quiera ) ###
+  - entity: weather.casa
+    style:
+      background-color: 'rgba(61, 116, 254, 0.3)'
+      border-radius: 50%
+      color: '#fff'
+      font-size: 14px
+      font-weight: bold
+      left: 23%
+      text-align: center
+      top: 10%
+    type: state-label
+### Para añadir, por ejemplo, un icono de un media player ###
+  - entity: media_player.lg_webos_smart_tv
+    icon: 'mdi:television-classic'
+    style:
+      '--iron-icon-height': 42px
+      '--iron-icon-width': 42px
+      left: 30%
+      top: 50%
+    type: state-icon
+
