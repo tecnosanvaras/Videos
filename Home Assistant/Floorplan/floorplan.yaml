@@ -1,0 +1,195 @@
+#### Añadir tarjeta, elegir Manual y pegar el siguiente código ####
+### Esta tarjeta no tiene iconos: está realizada con un botón transparente ###
+
+type: picture-elements
+image: /local/Floorplan/casa_noche.png
+elements:
+  - entity: light.invitados
+    hold_action: none
+    state_image:
+      'off': /local/Floorplan/boton_transparente.png
+      'on': /local/Floorplan/casa_invitados.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action: none
+    type: image
+  - entity: light.dormitorio
+    hold_action: none
+    state_image:
+      'off': /local/Floorplan/boton_transparente.png
+      'on': /local/Floorplan/casa_dormitorio.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action: none
+    type: image
+  - entity: light.salon_izquierda
+    hold_action: none
+    state_image:
+      'off': /local/Floorplan/boton_transparente.png
+      'on': /local/Floorplan/casa_salon_2.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action: none
+    type: image
+  - entity: light.salon_derecha
+    hold_action: none
+    state_image:
+      'off': /local/Floorplan/boton_transparente.png
+      'on': /local/Floorplan/casa_salon_1.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action: none
+    type: image
+  - conditions:
+      - entity: light.salon_izquierda
+        state: 'on'
+      - entity: light.salon_derecha
+        state: 'on'
+    elements:
+      - entity:
+          - light.salon_izquierda
+          - light.salon_derecha
+        filter: brightness(100%)
+        image: /local/Floorplan/casa_salon_1_y_2.png
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+        type: image
+    type: conditional
+  - entity: light.invitados
+    image: /local/Floorplan/boton_transparente.png
+    style:
+      left: 70%
+      top: 40%
+    tap_action:
+      action: toggle
+    type: image
+  - entity: light.dormitorio
+    image: /local/Floorplan/boton_transparente.png
+    style:
+      left: 50%
+      top: 75%
+    tap_action:
+      action: toggle
+    type: image
+  - entity: light.salon_izquierda
+    image: /local/Floorplan/boton_transparente.png
+    style:
+      left: 35%
+      top: 50%
+    tap_action:
+      action: toggle
+    type: image
+  - entity: light.salon_derecha
+    image: /local/Floorplan/boton_transparente.png
+    style:
+      left: 50%
+      top: 30%
+    tap_action:
+      action: toggle
+    type: image
+
+...................................................................................
+### Esta tarjeta es la misma pero con iconos en la imagen ###
+
+type: picture-elements
+image: /local/Floorplan/casa_noche.png
+elements:
+  - entity: light.invitados
+    hold_action: none
+    state_image:
+      'off': /local/Floorplan/boton_transparente.png
+      'on': /local/Floorplan/casa_invitados.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action: none
+    type: image
+  - entity: light.dormitorio
+    hold_action: none
+    state_image:
+      'off': /local/Floorplan/boton_transparente.png
+      'on': /local/Floorplan/casa_dormitorio.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action: none
+    type: image
+  - entity: light.salon_izquierda
+    hold_action: none
+    state_image:
+      'off': /local/Floorplan/boton_transparente.png
+      'on': /local/Floorplan/casa_salon_2.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action: none
+    type: image
+  - entity: light.salon_derecha
+    hold_action: none
+    state_image:
+      'off': /local/Floorplan/boton_transparente.png
+      'on': /local/Floorplan/casa_salon_1.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action: none
+    type: image
+  - conditions:
+      - entity: light.salon_izquierda
+        state: 'on'
+      - entity: light.salon_derecha
+        state: 'on'
+    elements:
+      - entity:
+          - light.salon_izquierda
+          - light.salon_derecha
+        filter: brightness(100%)
+        image: /local/Floorplan/casa_salon_1_y_2.png
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+        type: image
+    type: conditional
+  - entity: light.invitados
+    type: state-icon
+    style:
+      left: 68%
+      top: 40%
+    tap_action:
+      action: toggle
+  - entity: light.dormitorio
+    type: state-icon
+    style:
+      left: 50%
+      top: 75%
+    tap_action:
+      action: toggle
+  - entity: light.salon_izquierda
+    type: state-icon
+    style:
+      left: 35%
+      top: 50%
+    tap_action:
+      action: toggle
+  - entity: light.salon_derecha
+    type: state-icon
+    style:
+      left: 50%
+      top: 30%
+    tap_action:
+      action: toggle
