@@ -211,6 +211,7 @@ elements:
   - entity: media_player.lg_webos_smart_tv
     icon: 'mdi:television-classic'
     style:
+      '--mdc-icon-size': 20px #Para cambiar el tamaño del icono
       left: 30%
       top: 50%
     type: state-icon
