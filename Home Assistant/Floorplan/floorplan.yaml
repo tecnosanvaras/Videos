@@ -211,8 +211,6 @@ elements:
   - entity: media_player.lg_webos_smart_tv
     icon: 'mdi:television-classic'
     style:
-      '--iron-icon-height': 42px
-      '--iron-icon-width': 42px
       left: 30%
       top: 50%
     type: state-icon
