@@ -29,8 +29,8 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
  - Tapo tplink C200: https://www.tp-link.com/es/home-networking/cloud-camera/tapo-c200/
  
  ### Broadlink para control remoto:
- - Broadlink RM4 pro
- - Broadlink RM-MINI3
+ - Broadlink RM4 pro: https://www.broadlink.com.es/broadlink-rm4-pro-domotica-mando-a-distancia-universal-rf-ir-alexa-google-home.html
+ - Broadlink RM-MINI3: https://www.broadlink.com.es/RM%20mini%203.html
  
  ### Altavoces inteligentes:
  - Amazon Echo Dot (3ª Generación)
