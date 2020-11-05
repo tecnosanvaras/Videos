@@ -175,7 +175,7 @@ elements:
   - entity: light.dormitorio
     type: state-icon
     style:
-      left: 50%
+      left: 48%
       top: 75%
     tap_action:
       action: toggle
