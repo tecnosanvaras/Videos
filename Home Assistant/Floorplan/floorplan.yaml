@@ -200,7 +200,8 @@ elements:
       
       
 ### Si quereis añadir un icono de tiempo (Hay que modificar los datos según lo que cada uno quiera ) ###
-  - entity: weather.casa
+  - type: state-label
+    entity: weather.casa
     style:
       background-color: 'rgba(61, 116, 254, 0.3)'
       border-radius: 50%
@@ -210,13 +211,13 @@ elements:
       left: 23%
       text-align: center
       top: 10%
-    type: state-label
+      
 ### Para añadir, por ejemplo, un icono de un media player ###
-  - entity: media_player.TU_MEDIA_PLAYER
+  - type: state-icon
+    entity: media_player.TU_MEDIA_PLAYER
     icon: 'mdi:television-classic'
     style:
       '--mdc-icon-size': 20px #Para cambiar el tamaño del icono
       left: 30%
       top: 50%
-    type: state-icon
-
+    
