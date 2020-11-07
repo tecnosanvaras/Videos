@@ -12,6 +12,11 @@ En este ejemplo el máximo de combinaciones de luces que he realizado es de 2 (e
 
 Este proyecto se puede realizar de otras muchas formas: empleando CSS, Templates, etc. Yo lo he realizado para que esté disponible para todos aquellos que sin saber de estos temas, quieran tener un proyecto llamativo y vistoso en su Home Assistant. No dudo que con el tiempo y el aprendizaje lo vayan mejorando y en el futuro me den unas cuantas lecciones que estaré encantado de aprender.
 
+## Programas necesarios para la realización de vuestro proyecto
+Sweet Home 3D: http://www.sweethome3d.com/es/
+Gimp: http://www.gimp.org.es/
+Inkscape (alternativa a Gimp): https://inkscape.org/es/
+
 Gracias a todos por vuestro apoyo, vuestra paciencia y sobre todo, vuestros comentarios de animo.
 
 Un saludo
