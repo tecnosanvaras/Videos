@@ -19,6 +19,7 @@ Gimp: http://www.gimp.org.es/
 
 Inkscape (alternativa a Gimp): https://inkscape.org/es/
 
+## Agradecimientos
 Gracias a todos por vuestro apoyo, vuestra paciencia y sobre todo, vuestros comentarios de animo.
 
 Un saludo
