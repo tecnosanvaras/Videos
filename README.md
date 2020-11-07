@@ -10,7 +10,7 @@ La casi totalidad de los vídeos sobre Home Assistant se pueden realizar en una 
 Aunque para la realización de los vídeos suelo utilizar imagenes virtuales, realizo las comprobaciones en una raspberry antes de subir cada uno de ellos. Si alguien encuentra algún error o un funcionamiento inadecuado, en los comentarios de mi canal podeis dejar vuestras opiniones.
 Os pido por favor que si no os funciona algo reviseis bien lo que habeis hecho porque muchas veces se trata de un problema de codigo, o simplemente de no haber realizado correctamente los pasos. Intentad repetir el proceso al menos un par de veces para comprobar que el error no es vuestro y entonces notificarmelo y os ayudaré en todo lo que pueda.
 
-Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preguntas varias, pero tengo una vida aparte de este canal como cualquiera de vosotros. Así que si muchas veces me demoro más de lo que esperais os pido disculpas.
+Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preguntas varias, pero tengo una vida aparte de este canal como cualquiera de vosotros. Si muchas veces me demoro más de lo que esperais os pido disculpas.
 
 ## DISPOSITIVOS DOMOTICOS QUE UTILIZO EN LA ACTUALIDAD
 ### Interruptores:
