@@ -220,4 +220,14 @@ elements:
       '--mdc-icon-size': 20px #Para cambiar el tamaño del icono
       left: 30%
       top: 50%
-    
+
+### Para añadir un service-button (Esto es solo un ejemplo y tendriais que añadir un group en vuestro HA)  ###
+### Se puede añadir cualquier servicio, por ejemplo, script, automatizaciones, etc ###
+  - type: service-button
+    title: Apagar todas las luces
+    service: homeassistant.turn_off
+    service_data:
+      entity_id: group.casa
+    style:
+      top: 93%
+      left: 50%
