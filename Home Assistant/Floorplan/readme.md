@@ -14,7 +14,9 @@ Este proyecto se puede realizar de otras muchas formas: empleando CSS, Templates
 
 ## Programas necesarios para la realización de vuestro proyecto
 Sweet Home 3D: http://www.sweethome3d.com/es/
+
 Gimp: http://www.gimp.org.es/
+
 Inkscape (alternativa a Gimp): https://inkscape.org/es/
 
 Gracias a todos por vuestro apoyo, vuestra paciencia y sobre todo, vuestros comentarios de animo.
