@@ -65,6 +65,8 @@ elements:
           width: 100%
         type: image
     type: conditional
+    
+### A partir de este punto empiezan los BOTONES que es lo que hace que la imagen cambie
   - entity: light.invitados
     image: /local/Floorplan/boton_transparente.png
     style:
@@ -165,6 +167,8 @@ elements:
           width: 100%
         type: image
     type: conditional
+    
+### A partir de este punto empiezan los BOTONES que es lo que hace que la imagen cambie
   - entity: light.invitados
     type: state-icon
     style:
@@ -208,7 +212,7 @@ elements:
       top: 10%
     type: state-label
 ### Para añadir, por ejemplo, un icono de un media player ###
-  - entity: media_player.lg_webos_smart_tv
+  - entity: media_player.TU_MEDIA_PLAYER
     icon: 'mdi:television-classic'
     style:
       '--mdc-icon-size': 20px #Para cambiar el tamaño del icono
