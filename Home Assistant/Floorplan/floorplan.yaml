@@ -57,7 +57,6 @@ elements:
       - entity:
           - light.salon_izquierda
           - light.salon_derecha
-        filter: brightness(100%)
         image: /local/Floorplan/casa_salon_1_y_2.png
         style:
           left: 50%
@@ -66,7 +65,7 @@ elements:
         type: image
     type: conditional
     
-### A partir de este punto empiezan los BOTONES que es lo que hace que la imagen cambie
+### A partir de este punto empiezan los BOTONES que es lo que hace que la imagen cambie ###
   - entity: light.invitados
     image: /local/Floorplan/boton_transparente.png
     style:
@@ -159,7 +158,6 @@ elements:
       - entity:
           - light.salon_izquierda
           - light.salon_derecha
-        filter: brightness(100%)
         image: /local/Floorplan/casa_salon_1_y_2.png
         style:
           left: 50%
