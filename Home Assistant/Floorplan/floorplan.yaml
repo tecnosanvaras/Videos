@@ -159,11 +159,11 @@ elements:
         state: 'on'
       - entity: light.salon_derecha
         state: 'on'
-    filter: brightness(100%)
     elements:
       - entity:
           - light.salon_izquierda
           - light.salon_derecha
+        filter: brightness(100%)
         image: /local/Floorplan/casa_salon_1_y_2.png
         style:
           left: 50%
