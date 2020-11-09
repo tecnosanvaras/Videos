@@ -48,6 +48,8 @@ elements:
       width: 100%
     tap_action: none
     type: image
+    
+### Aquí empezarían las CONDICIONES cuando hay mas de una bombilla en una misma Habitación ###    
   - conditions:
       - entity: light.salon_izquierda
         state: 'on'
@@ -149,6 +151,8 @@ elements:
       width: 100%
     tap_action: none
     type: image
+    
+### Aquí empezarían las CONDICIONES cuando hay mas de una bombilla en una misma Habitación ###   
   - conditions:
       - entity: light.salon_izquierda
         state: 'on'
