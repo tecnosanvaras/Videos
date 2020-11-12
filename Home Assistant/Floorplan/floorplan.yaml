@@ -234,3 +234,19 @@ elements:
     style:
       top: 93%
       left: 50%
+      
+### Para que nos cambie la imagen automaticamente dependiendo si es de dia o de noche ###
+  - type: image
+    entity: sun.sun
+    action: none
+    state_image:
+      above_horizon: /local/Floorplan/casa_dia.png
+      below_horizon: /local/Floorplan/boton_transparente.png
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+    tap_action:
+      action: none
+    hold_action:
+      action: none
