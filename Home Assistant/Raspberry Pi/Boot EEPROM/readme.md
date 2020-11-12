@@ -13,3 +13,5 @@ Los pasos a seguir son los siguientes:
 - Reiniciamos el sistema: sudo reboot
 - Si todo se realizado de forma satisfactoria, con el siguiente comando: vcgencmd bootloader_config podremos comprobar que en el boot_order aparece 0xf41. Esto quiere decir que primero intentará arrancar desde la SD y si no es posible intentará como segunda opción, el USB
 - El último paso seria copiar nuestra SD al dispositivo externo desde el cual queramos iniciar nuestra Raspberry: USB o SSD
+
+  [1]: https://www.youtube.com/channel/UCMddiVH-CzGZ97sVgZrKg6A
