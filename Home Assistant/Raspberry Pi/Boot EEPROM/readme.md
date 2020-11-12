@@ -7,7 +7,7 @@ Este documento es unicamente para la Raspberry Pi 4. En el caso de Raspberry pi 
 Los pasos a seguir son los siguientes:
 -	Tener instalado en nuestra Raspberry Pi 4 el sistema operativo Raspberry Pi OS
 - Actualizar el sistema operativo: **sudo apt update && sudo apt full-upgrade**
-- Comprobar si hay disponible una actualización de la eeprom. Ejecutamos el siguiente comando y si nos aparece **"critical"** lo cambiamos por **"stable"**
+- Comprobar si hay disponible una actualización de la eeprom. Ejecutamos el siguiente comando: **sudo nano /etc/default/rpi-eeprom-update** y si nos aparece **"critical"** lo cambiamos por **"stable"**
 - Listamos los bootloader disponibles de la siguiente forma: **ls /lib/firmware/raspberrypi/bootloader/stable/**
 - Una vez comprobado la última versión disponible (segun la fecha en formato yyyy-mm-dd), actualizamos de la siguiente forma: **sudo rpi-eeprom-update -d -f /lib/firmware/raspberrypi/bootloader/stable/pieeprom-2020-09-03.bin** (cambiamos el pieeprom por el último disponible)
 - Reiniciamos el sistema: sudo reboot
