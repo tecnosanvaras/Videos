@@ -1,4 +1,4 @@
-- Incluir en el configuration.yaml las siguientes líneas para declarar los archivos que vamos a crear:
+### Incluir en el configuration.yaml las siguientes líneas para declarar los archivos que vamos a crear: ###
 sensor: !include sensor.yaml
 input_boolean: !include input_boolean.yaml
 timer: !include timer.yaml
