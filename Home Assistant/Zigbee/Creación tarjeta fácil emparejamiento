@@ -1,3 +1,9 @@
+- Incluir en el configuration.yaml las siguientes líneas para declarar los archivos que vamos a crear:
+sensor: !include sensor.yaml
+input_boolean: !include input_boolean.yaml
+timer: !include timer.yaml
+
+
 *********ARCHIVO input_boolean.yaml*********
 zigbee_permit_join:
   name: Permitir emparejamiento
