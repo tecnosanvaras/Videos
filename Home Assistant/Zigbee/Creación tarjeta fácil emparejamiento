@@ -65,3 +65,13 @@ zigbee_permit_join:
   - service: input_boolean.turn_off
     data:
       entity_id: input_boolean.zigbee_permit_join
+      
+
+### Creación de la tarjeta entidades: ###
+
+type: entities
+entities:
+  - entity: input_boolean.zigbee_permit_join
+  - entity: timer.zigbee_permit_join
+  - entity: sensor.estado_del_coordinador
+title: Zigbee
