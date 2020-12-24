@@ -1,0 +1,61 @@
+*********ARCHIVO input_boolean.yaml*********
+zigbee_permit_join:
+  name: Permitir emparejamiento
+  initial: off
+  icon: mdi:cellphone-wireless
+  
+*********ARCHIVO sensor.yaml*********
+- platform: mqtt
+  name: Estado del Coordinador
+  state_topic: "zigbee2mqtt/bridge/state"
+  icon: mdi:remote
+  
+*********ARCHIVO timer.yaml*********
+zigbee_permit_join:
+  name: Tiempo restante
+  duration: 300
+  
+*********ARCHIVO automations.yaml*********
+- id: activar_emparejamiento_zigbee
+  alias: Activar emparejamiento Zigbee
+  trigger:
+    platform: state
+    entity_id: input_boolean.zigbee_permit_join
+    to: 'on'
+  action:
+  - service: mqtt.publish
+    data:
+      topic: zigbee2mqtt/bridge/config/permit_join
+      payload: 'true'
+  - service: timer.start
+    data:
+      entity_id: timer.zigbee_permit_join
+- id: desactivar_emparejamiento_zigbee
+  alias: Desactivar emparejamiento Zigbee
+  trigger:
+  - entity_id: input_boolean.zigbee_permit_join
+    platform: state
+    to: 'off'
+  action:
+  - data:
+      payload: 'false'
+      topic: zigbee2mqtt/bridge/config/permit_join
+    service: mqtt.publish
+  - data:
+      entity_id: timer.zigbee_permit_join
+    service: timer.cancel
+- id: desactivar_emparejamiento_automaticamente
+  alias: Desactivar emparejamiento cuando acabe el tiempo
+  trigger:
+  - platform: event
+    event_type: timer.finished
+    event_data:
+      entity_id: timer.zigbee_permit_join
+  action:
+  - service: mqtt.publish
+    data:
+      topic: zigbee2mqtt/bridge/config/permit_join
+      payload: 'false'
+  - service: input_boolean.turn_off
+    data:
+      entity_id: input_boolean.zigbee_permit_join
