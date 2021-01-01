@@ -1,0 +1,72 @@
+Toda la documentación la podeis encontrar en el github oficial de Alexa Media Player: https://github.com/custom-components/alexa_media_player/wiki#sequence-commands-versions--100
+Además podeis encontrar toda la información de la que hablo en el vídeo en la web de desarrolladores de Alexa. Dejo aquí también los 2 enlaces más importantes:
+💎Alexa Skills Kit Sound Library: https://developer.amazon.com/es-ES/do...
+💎Speech Synthesis Markup Language (SSML) Reference: https://developer.amazon.com/es-/docs...
+
+😉Ejemplo para reproducir un texto (Servicio notify.alexa_media):😉
+message: Escribe aquí tu texto,
+data:
+  type: tts
+target: media_player.TU_DISPOSITIVO
+
+😉Ejemplo para reproducir un efecto (Servicio notify.alexa_media):😉
+- id: alexa_say_susurro
+  alias: alexa say
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: light.flexo
+    from: 'off'
+    to: 'on'
+  condition: []
+  action:
+  - service: notify.alexa_media
+    data: {
+        "message":"<amazon:effect name='whispered'>Escribe aquí el texto que quieras y lo dirá susurrando</amazon:effect>",
+        "data":{"type":"announce", "method":"speak"},
+        "target":"media_player.echo_dot_salon"
+         }
+  mode: single
+
+😉Ejemplo para reproducir algo en Amazon Music (Servicio media_player.play_media):😉
+entity_id: media_player.TU_DISPOSITIVO
+media_content_id: cantante que querais
+media_content_type: AMAZON_MUSIC
+
+😉Ejemplo de automatización (Servicio notify.alexa_media):😉
+- id: alexa_dice
+  alias: alexa dice
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: light.flexo
+    from: 'off'
+    to: 'on'
+  condition: []
+  action:
+  - service: notify.alexa_media
+    data:
+      message: Luz flexo encendida
+      data:
+        type: tts
+      target: media_player.echo_dot_salon
+  mode: single
+
+😉Ejemplo de automatización (Servicio media_player.play_media):😉
+- id: alexa_reproduccion_de_sonido
+  alias: alexa say
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: light.flexo
+    from: 'off'
+    to: 'on'
+  condition: 
+  action:
+  - service: media_player.play_media
+    data: {
+        "entity_id": "media_player.TU_DISPOSITIVO",
+        "media_content_id": "amzn_sfx_doorbell_chime_01",
+        "media_content_type": "sound"
+         }
+  mode: single
