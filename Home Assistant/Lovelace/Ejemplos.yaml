@@ -14,3 +14,18 @@ light.XXXXXXXXX:
   entity_picture: /local/ico/television.svg
 
 Los iconos pueden tener diferentes formatos: .svg, .png, .ico, .jpg, .gif...
+
+Si lo que queremos es que cambie la imagen dependiendo del estado (encendido - apagado), existen varias formas de hacerlo. Un ejemplo sencillo sería el siguiente:
+type: picture-entity
+entity: swithc.lavadora
+name: Lavadora
+image: /local/lavadora.jpg
+show_state: false
+state_image:
+  'off': /local/lavadora.jpg
+  'on': /local/lavadora.gif
+aspect_ratio: '1'
+tap_action:
+  action: toggle
+
+Si lo que queremos es que los iconos muestren un tamaño determinado, primero debemos añadir un addon en HACS llamado "Custom Button Card". Aquí teneis el repositorio: https://github.com/custom-cards/button-card
