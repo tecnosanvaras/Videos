@@ -16,6 +16,7 @@ light.XXXXXXXXX:
 Los iconos pueden tener diferentes formatos: .svg, .png, .ico, .jpg, .gif...
 
 Si lo que queremos es que cambie la imagen dependiendo del estado (encendido - apagado), existen varias formas de hacerlo. Un ejemplo sencillo sería el siguiente:
+```yaml
 type: picture-entity
 entity: swithc.lavadora
 name: Lavadora
@@ -27,10 +28,12 @@ state_image:
 aspect_ratio: '1'
 tap_action:
   action: toggle
+```
 
 Si lo que queremos es que los iconos muestren un tamaño determinado, primero debemos añadir un addon en HACS llamado "Custom Button Card".
 Aquí teneis el repositorio: https://github.com/custom-cards/button-card
 Teneis muchos ejemplos dentro del repositorio. Un ejemplo sencillo para cambiar el tamaño de un boton sería el siguiente:
+############################################
 type: 'custom:button-card'
 entity: light.XXXXXXXXX
 name: "El nombre que querais"
@@ -39,4 +42,18 @@ styles:
   card:
     - width: 100px
     - height: 100px
+############################################
+
+Otro ejemplo seria cambiar el brillo y la saturación de la imagen según el estado. Aquí otro ejemplo:
+############################################
+type: picture-entity
+state_filter:
+  'on': brightness(110%) saturate(1.2)
+  'off': brightness(50%) hue-rotate(45deg)
+entity: light.tocador_derecha
+image: /local/fotos_tarjetas/Tocador_on.jpg
+show_state: false
+tap_action:
+  action: more-info
+############################################
 
