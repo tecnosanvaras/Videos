@@ -29,7 +29,7 @@ show_state: false
 state_image:
   'off': /local/lavadora.jpg
   'on': /local/lavadora.gif
-aspect_ratio: '1' (si no ponemos el aspect_ratio a '1' nos dejará la imagen según su tamaño. Al ponerlo a '1' nos lo igualara a las demas tarjetas de la línea)
+aspect_ratio: '1' (El aspect_ratio a '1' hace que el tamaño de la imagen sea proporcional al resto)
 tap_action:
   action: toggle
 ```
