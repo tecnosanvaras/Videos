@@ -77,3 +77,18 @@ entities:
     buttons_position: left
     title_position: bottom
 ```
+
+Dentro de HACS podeis encontrar muchos addons que pueden ser de gran utilidad para modificar nuestro Lovelace.
+Los que yo he utilizado o utilizo para personalizar mi Home Assistant son los siguientes:
+ - Card Mod: https://github.com/thomasloven/lovelace-card-mod
+ - Text Divider Row: https://github.com/iantrich/text-divider-row
+ - Check Button Card: https://github.com/custom-cards/check-button-card
+ - Button Card: https://github.com/custom-cards/button-card
+ - Slider Entity Row: https://github.com/thomasloven/lovelace-slider-entity-row
+ - Light Entity Card: https://github.com/ljmerza/light-entity-card
+ - Auto Entities: https://github.com/thomasloven/lovelace-auto-entities
+ 
+ Por supuesto existen muchas más y por supuesto las habrá mejores y peores.
+ Pero es de agradecer a sus creadores que pongan a nuestra disposición sus conocimientos.
+ 
+ Espero que os haya resultado de utilidad
