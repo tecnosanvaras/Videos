@@ -28,4 +28,15 @@ aspect_ratio: '1'
 tap_action:
   action: toggle
 
-Si lo que queremos es que los iconos muestren un tamaño determinado, primero debemos añadir un addon en HACS llamado "Custom Button Card". Aquí teneis el repositorio: https://github.com/custom-cards/button-card
+Si lo que queremos es que los iconos muestren un tamaño determinado, primero debemos añadir un addon en HACS llamado "Custom Button Card".
+Aquí teneis el repositorio: https://github.com/custom-cards/button-card
+Teneis muchos ejemplos dentro del repositorio. Un ejemplo sencillo para cambiar el tamaño de un boton sería el siguiente:
+type: 'custom:button-card'
+entity: light.XXXXXXXXX
+name: "El nombre que querais"
+show_state: true
+styles:
+  card:
+    - width: 100px
+    - height: 100px
+
