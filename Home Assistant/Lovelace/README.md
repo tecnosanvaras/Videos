@@ -7,11 +7,15 @@ Toda la información la podeis encontrar en la web oficial de Home Assistant: ht
 
 **Para personalizar los iconos**, aquí teneis un ejemplo que hay que poner dentro de nuestro customize.yaml:
 
+```yaml
 switch.XXXXXXXXX:
   entity_picture: /local/ico/fan.ico (Ruta donde tengamos nuestro icono).
-  
+```
+
+```yaml
 light.XXXXXXXXX:
   entity_picture: /local/ico/television.svg
+```
 
 Los iconos pueden tener diferentes formatos: .svg, .png, .ico, .jpg, .gif...
 
