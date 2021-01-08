@@ -1,4 +1,4 @@
-Para personalizar nuestro Lovelace, Dashboard o Panel de Home Assistant hay que incluir en el configuration.yaml las siguientes lineas:
+Para personalizar nuestro Lovelace, Dashboard o Panel de Home Assistant en determinados aspectos, hay que incluir en el configuration.yaml las siguientes lineas:
 
 homeassistant:
   customize: !include customize.yaml
