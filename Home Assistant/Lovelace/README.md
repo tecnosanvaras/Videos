@@ -5,7 +5,7 @@ homeassistant:
   
 Toda la información la podeis encontrar en la web oficial de Home Assistant: https://www.home-assistant.io/docs/configuration/customizing-devices/
 
-Para personalizar los iconos, aquí teneis un ejemplo que hay que poner dentro de nuestro customize.yaml:
+**Para personalizar los iconos**, aquí teneis un ejemplo que hay que poner dentro de nuestro customize.yaml:
 
 switch.XXXXXXXXX:
   entity_picture: /local/ico/fan.ico (Ruta donde tengamos nuestro icono).
@@ -15,7 +15,7 @@ light.XXXXXXXXX:
 
 Los iconos pueden tener diferentes formatos: .svg, .png, .ico, .jpg, .gif...
 
-Si lo que queremos es que cambie la imagen dependiendo del estado (encendido - apagado), existen varias formas de hacerlo. Un ejemplo sencillo sería el siguiente:
+**Si lo que queremos es que cambie la imagen dependiendo del estado (encendido - apagado),** existen varias formas de hacerlo. Un ejemplo sencillo sería el siguiente:
 ```yaml
 type: picture-entity
 entity: swithc.lavadora
@@ -30,7 +30,7 @@ tap_action:
   action: toggle
 ```
 
-Si lo que queremos es que los iconos muestren un tamaño determinado, primero debemos añadir un addon en HACS llamado "Custom Button Card".
+**Si lo que queremos es que los iconos muestren un tamaño determinado,** primero debemos añadir un addon en HACS llamado "Custom Button Card".
 Aquí teneis el repositorio: https://github.com/custom-cards/button-card
 Teneis muchos ejemplos dentro del repositorio. Un ejemplo sencillo para cambiar el tamaño de un boton sería el siguiente:
 ```yaml
