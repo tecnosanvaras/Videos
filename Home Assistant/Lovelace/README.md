@@ -62,7 +62,7 @@ tap_action:
 ```
 
 Las tarjetas de persianas las podeis encontrar en el repositorio: https://github.com/Deejayfool/hass-shutter-card
-El addon se puede integrar desde HACS
+El addon se puede integrar desde HACS.
 Una vez realizada la integración, el código lo podeis realizar con una tarjeta manual y sería el siguiente:
 ```yaml
 type: 'custom:shutter-card'
