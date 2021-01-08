@@ -33,7 +33,7 @@ tap_action:
 Si lo que queremos es que los iconos muestren un tamaño determinado, primero debemos añadir un addon en HACS llamado "Custom Button Card".
 Aquí teneis el repositorio: https://github.com/custom-cards/button-card
 Teneis muchos ejemplos dentro del repositorio. Un ejemplo sencillo para cambiar el tamaño de un boton sería el siguiente:
-############################################
+```yaml
 type: 'custom:button-card'
 entity: light.XXXXXXXXX
 name: "El nombre que querais"
@@ -42,10 +42,10 @@ styles:
   card:
     - width: 100px
     - height: 100px
-############################################
+```
 
 Otro ejemplo seria cambiar el brillo y la saturación de la imagen según el estado. Aquí otro ejemplo:
-############################################
+```yaml
 type: picture-entity
 state_filter:
   'on': brightness(110%) saturate(1.2)
@@ -55,4 +55,4 @@ image: /local/fotos_tarjetas/Tocador_on.jpg
 show_state: false
 tap_action:
   action: more-info
-############################################
+```
