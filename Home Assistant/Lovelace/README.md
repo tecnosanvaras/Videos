@@ -48,7 +48,7 @@ styles:
     - height: 100px
 ```
 
-Otro ejemplo seria cambiar el brillo y la saturación de la imagen según el estado. Aquí otro ejemplo:
+**Otro ejemplo seria cambiar el brillo y la saturación de la imagen según el estado.** Aquí otro ejemplo:
 ```yaml
 type: picture-entity
 state_filter:
@@ -59,4 +59,17 @@ image: /local/tocador_on.jpg
 show_state: false
 tap_action:
   action: more-info
+```
+
+Las tarjetas de persianas las podeis encontrar en el repositorio: https://github.com/Deejayfool/hass-shutter-card
+El addon se puede integrar desde HACS
+Una vez realizada la integración, el código lo podeis realizar con una tarjeta manual y sería el siguiente:
+```yaml
+type: 'custom:shutter-card'
+title: 'Nombre de la Persiana'
+entities:
+  - entity: cover.persiana_XXXX
+    name: Porcentaje
+    buttons_position: left
+    title_position: bottom
 ```
