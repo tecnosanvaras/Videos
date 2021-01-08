@@ -50,8 +50,8 @@ type: picture-entity
 state_filter:
   'on': brightness(110%) saturate(1.2)
   'off': brightness(50%) hue-rotate(45deg)
-entity: light.tocador_derecha
-image: /local/fotos_tarjetas/Tocador_on.jpg
+entity: light.xxxxx
+image: /local/tocador_on.jpg
 show_state: false
 tap_action:
   action: more-info
