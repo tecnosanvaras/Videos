@@ -91,4 +91,173 @@ Los que yo he utilizado o utilizo para personalizar mi Home Assistant son los si
  Por supuesto existen muchas más y por supuesto las habrá mejores y peores.
  Pero es de agradecer a sus creadores que pongan a nuestra disposición sus conocimientos.
  
+ El ejemplo del final del vídeo es una configuración muy simple realizada con combinaciones de las diferentes pilas.
+ Os dejo el ejemplo para que os hagais una idea de lo que sería el editor de código:
+ ```yaml
+ type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: button
+        tap_action:
+          action: toggle
+        entity: light.xxxxx
+      - type: button
+        tap_action:
+          action: toggle
+        entity: switch.xxxxx
+      - type: button
+        tap_action:
+          action: toggle
+        entity: switch.xxxxx
+      - type: button
+        tap_action:
+          action: toggle
+        entity: switch.xxxxx
+      - type: button
+        tap_action:
+          action: toggle
+        entity: light.xxxxx
+      - type: button
+        tap_action:
+          action: toggle
+        entity: switch.xxxxx
+      - type: button
+        tap_action:
+          action: toggle
+        entity: switch.xxxxx
+  - type: horizontal-stack
+    cards:
+      - type: grid
+        cards:
+          - type: button
+            tap_action:
+              action: toggle
+            entity: switch.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: switch.xxxxx
+      - type: grid
+        cards:
+          - type: button
+            tap_action:
+              action: toggle
+            entity: switch.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: switch.xxxxx
+      - type: grid
+        cards:
+          - type: button
+            tap_action:
+              action: toggle
+            entity: light.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: switch.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: light.xxxxx
+  - type: horizontal-stack
+    cards:
+      - type: grid
+        columns: 6
+        square: false
+        cards:
+          - type: button
+            tap_action:
+              action: toggle
+            entity: light.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: light.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: light.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: light.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: switch.xxxxx
+          - type: button
+            tap_action:
+              action: toggle
+            entity: switch.xxxxx
+  - type: horizontal-stack
+    cards:
+      - type: grid
+        columns: 4
+        cards:
+          - type: 'custom:shutter-card'
+            title: "El nombre que querais"
+            entities:
+              - entity: cover.xxxxx
+                name: Porcentaje
+                buttons_position: left
+                title_position: bottom
+          - type: thermostat
+            entity: climate.xxxxx
+          - type: thermostat
+            entity: climate.xxxxx
+          - type: 'custom:shutter-card'
+            title: "El nombre que querais"
+            entities:
+              - entity: cover.xxxxx
+                name: Porcentaje
+                buttons_position: left
+                title_position: bottom
+  - type: horizontal-stack
+    cards:
+      - type: grid
+        columns: 5
+        square: false
+        cards:
+          - type: 'custom:mini-media-player'
+            artwork: full-cover
+            icon: 'mdi:amazon'
+            tts:
+              platform: alexa
+              enity_id: media_player.xxxxx
+            entity: media_player.xxxxx
+          - type: 'custom:mini-media-player'
+            artwork: full-cover
+            icon: 'mdi:amazon'
+            tts:
+              platform: alexa
+              enity_id: media_player.xxxxx
+            entity: media_player.xxxxx
+          - type: 'custom:mini-media-player'
+            artwork: full-cover
+            icon: 'mdi:google-home'
+            tts:
+              platform: google
+              enity_id: media_player.xxxxx
+            entity: media_player.xxxxx
+            volume_stateless: true
+          - type: media-control
+            entity: media_player.xxxxx
+          - type: media-control
+            entity: media_player.xxxxx
+  - type: horizontal-stack
+    cards:
+      - type: picture-entity
+        entity: camera.xxxxx
+        show_state: false
+      - type: picture-entity
+        entity: camera.xxxxx
+        show_name: false
+        show_state: false
+
+ 
+ ```
+ 
  Espero que os haya resultado de utilidad
