@@ -64,6 +64,7 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
 ## DISPOSITIVOS PARA FLASHEO (Tasmota, Zigbee)
 - Convertidor CP2102: https://amzn.to/3ue5fQ1
 - Kit Emulador Zigbee: https://es.aliexpress.com/item/4000439492385.html?spm=a2g0s.9042311.0.0.3ed763c0oLvGNP
+- Conbee II: https://amzn.to/2NjqDm8
 
 
 
