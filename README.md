@@ -14,23 +14,23 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
 
 ## DISPOSITIVOS DOMOTICOS QUE UTILIZO EN LA ACTUALIDAD
 ### Interruptores:
- - SONOFF T0EU1C
- - SONOFF T0EU2C
- - SONOFF T1EU1C
- - SONOFF T1EU2C
+ - SONOFF T0EU1C: https://amzn.to/2NKN5o3
+ - SONOFF T0EU2C: https://amzn.to/3k1CXDL
+ - SONOFF T1EU1C: https://amzn.to/3k1CXDL
+ - SONOFF T1EU2C: https://amzn.to/3k1CXDL
  
  Todos ellos los podeis encontrar en webs como Amazón
  
  ### Bombillas:
- - Bombilla led inteligente TVLIVE: https://www.amazon.es/gp/product/B07STY857D/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
- - Bombillas LVWIT: https://www.amazon.es/gp/product/B07YKF9HZ2/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1
+ - Bombilla led inteligente TVLIVE: https://amzn.to/2OTVYfO
+ - Bombillas LVWIT: https://amzn.to/3boPBJ1
  
  ### Camaras:
- - Tapo tplink C200: https://www.tp-link.com/es/home-networking/cloud-camera/tapo-c200/
+ - Tapo tplink C200: https://amzn.to/3s9mNuN
  
  ### Broadlink para control remoto:
- - Broadlink RM4 pro: https://www.broadlink.com.es/broadlink-rm4-pro-domotica-mando-a-distancia-universal-rf-ir-alexa-google-home.html
- - Broadlink RM-MINI3: https://www.broadlink.com.es/RM%20mini%203.html
+ - Broadlink RM4 pro: https://amzn.to/3bjfXvS
+ - Broadlink RM-MINI3: https://amzn.to/3dFPj3l
  
  ### Altavoces inteligentes:
  - Amazon Echo Dot (3ª Generación)
@@ -42,26 +42,27 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
  
  ### Dispositivos para control de luces, persianas:
  - Shelly 2.5: https://shellyspain.com/index.php?id_product=259&rewrite=shelly-25&controller=product&id_lang=1
- - Sonoff mini: https://www.amazon.es/gp/product/B07WS5BZQW/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1
+ - Sonoff mini: https://amzn.to/37qyxB6
  
  ### Wifi MESH
-  - TP-Link AC1200 M4: https://www.amazon.es/gp/product/B07KJ2TDMR/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+  - TP-Link AC1200 M4: https://amzn.to/3pzhTpf
   
  ### Regletas
- - Regleta Meross: https://www.amazon.es/gp/product/B07PMWYNSW/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+ - Regleta Meross: https://amzn.to/3k1z5CG
 
 ## DISPOSITIVOS QUE UTILIZO PARA LA REALIZACIÓN DE LOS VIDEOS
-- Raspberry Pi 3B+
-- Intel NUC7CJYH
+- Raspberry Pi 3B+: https://amzn.to/3drYynq
+- Intel NUC7CJYH: https://amzn.to/37tUoYs
 - Cámara utilizada para la grabación de los videos: Iphone X
-- Microfono de solapa: https://www.amazon.es/gp/product/B01G16LSVQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+- Microfono de solapa: https://amzn.to/3aEoUB3
 - TechSmith Camtasia: Montaje de vídeos
-- Adaptador de disco duro USB 3.0 A SSD: https://www.amazon.es/gp/product/B011M8YACM/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
-- Disco duro Kingston 240GB: https://www.amazon.es/gp/product/B0745CBCLK/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+- Wondershare Filmora X: Montaje de vídeos
+- Adaptador de disco duro USB 3.0 A SSD: https://amzn.to/2OO3qc9
+- Disco duro Kingston 240GB: https://amzn.to/3bgE9Pw
 
 
 ## DISPOSITIVOS PARA FLASHEO (Tasmota, Zigbee)
-- Convertidor CP2102: https://www.amazon.es/gp/product/B072K3Z3TL/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1
+- Convertidor CP2102: https://amzn.to/3ue5fQ1
 - Kit Emulador Zigbee: https://es.aliexpress.com/item/4000439492385.html?spm=a2g0s.9042311.0.0.3ed763c0oLvGNP
 
 
