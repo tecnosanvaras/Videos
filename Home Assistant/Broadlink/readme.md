@@ -8,6 +8,8 @@ En el link teneis el vídeo explicando como hacerlo: https://www.youtube.com/wat
 
 ### Ejemplo 1
 Ejemplo de una tarjeta combinada de pila vertical y horizontal con cards tipo 'button'
+
+
 ```
 type: vertical-stack
 cards:
