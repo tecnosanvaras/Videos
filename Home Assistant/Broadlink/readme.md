@@ -7,7 +7,8 @@ En el link teneis el vídeo explicando como hacerlo: https://www.youtube.com/wat
 ## Ejemplos de tarjetas para usar nuestros dispositivos con BROADLINK
 
 ### Ejemplo 1
-Ejemplo de una tarjeta combinada de pila vertical y horizontal con cards tipo 'button'
+Ejemplo de una tarjeta combinada de pila vertical y horizontal con cards tipo 'button'.
+
 !(https://github.com/tecnosanvaras/Videos/blob/main/Home%20Assistant/Broadlink/tarjeta_1.png)
 
 ```
