@@ -74,3 +74,177 @@ cards:
         entity: script.canal_cero_tv
         show_name: false
 ```
+
+Ejemplo 2:
+```
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        entity: script.power_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: green
+        styles:
+          card:
+            - height: 100px
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        entity: script.canal_uno_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+      - type: 'custom:button-card'
+        entity: script.canal_dos_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+      - type: 'custom:button-card'
+        entity: script.canal_tres_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        entity: script.canal_cuatro_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+      - type: 'custom:button-card'
+        entity: script.canal_cinco_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+      - type: 'custom:button-card'
+        entity: script.canal_seis_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        entity: script.canal_siete_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+      - type: 'custom:button-card'
+        entity: script.canal_ocho_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+      - type: 'custom:button-card'
+        entity: script.canal_nueve_tv
+        color_type: card
+        tap_action:
+          action: toggle
+        state:
+          - value: 'on'
+            color: red
+            styles:
+              card:
+                - animation: blink 2s ease infinite
+          - operator: default
+            color: blue
+        styles:
+          card:
+            - height: 100px
+```
