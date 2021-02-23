@@ -80,7 +80,9 @@ cards:
 ```
 
 ### Ejemplo 2:
-Ejemplo de tarjeta con un complemento de HACS llamado 'Custom button card'
+Ejemplo de tarjeta con un complemento de HACS llamado 'Custom button card'.
+
+![Tecnosanvaras en YouTube](https://github.com/tecnosanvaras/Videos/blob/main/Home%20Assistant/Broadlink/tarjeta_2.png)
 ```
 type: vertical-stack
 cards:
@@ -255,7 +257,9 @@ cards:
 ```
 
 ### Ejemplo 3
-Ejemplo con una tarjeta de entidades
+Ejemplo con una tarjeta de entidades.
+
+![Tecnosanvaras en YouTube](https://github.com/tecnosanvaras/Videos/blob/main/Home%20Assistant/Broadlink/tarjeta_3.png)
 ```
 type: entities
 entities:
@@ -273,7 +277,9 @@ title: Television
 ```
 
 ### Ejemplo 4
-Ejemplo con una tarjeta picture-elements
+Ejemplo con una tarjeta picture-elements.
+
+![Tecnosanvaras en YouTube](https://github.com/tecnosanvaras/Videos/blob/main/Home%20Assistant/Broadlink/tarjeta_4.png)
 ```
 type: picture-elements
 image: /local/mando.png
@@ -346,7 +352,9 @@ elements:
 ```
 
 ### Ejemplo 5
-Tarjeta que combina un poco de todo
+Tarjeta que combina un poco de todo.
+
+![Tecnosanvaras en YouTube](https://github.com/tecnosanvaras/Videos/blob/main/Home%20Assistant/Broadlink/tarjeta_5.png)
 ```
 cards:
   - entity: media_player.lg_webos_smart_tv
