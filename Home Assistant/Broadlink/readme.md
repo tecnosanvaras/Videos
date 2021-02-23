@@ -341,3 +341,333 @@ elements:
       top: 68%
       left: 76%
 ```
+
+### Ejemplo 5
+Tarjeta que combina un poco de todo
+```
+cards:
+  - entity: media_player.lg_webos_smart_tv
+    type: media-control
+  - cards:
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:volume-plus'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: VOLUMEUP
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:volume-minus'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: VOLUMEDOWN
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:home'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: HOME
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:arrow-up-thick'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: UP
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:arrow-down-thick'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: DOWN
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:exit-to-app'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: EXIT
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:backup-restore'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: BACK
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:check'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: ENTER
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:arrow-left-thick'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: LEFT
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+      - action: service
+        color: 'rgb(255, 0, 0)'
+        color_type: card
+        icon: 'mdi:arrow-right-thick'
+        tap_action:
+          action: call-service
+          service: webostv.button
+          service_data:
+            button: RIGHT
+            entity_id: media_player.lg_webos_smart_tv
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - color_type: card
+        entity: script.canal_tv_live
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_netflix
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_amazon_tv
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_hbo
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - color_type: card
+        entity: script.canal_tve1
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_tve1
+          service_data:
+            entity_id: script.canal_tve1
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_tve2
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_tve2
+          service_data:
+            entity_id: script.canal_tve2
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_antena_tres
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_antena_tres
+          service_data:
+            entity_id: script.canal_antena_tres
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_cuatro
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_cuatro
+          service_data:
+            entity_id: script.canal_cuatro
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_tele_5
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_tele_5
+          service_data:
+            entity_id: script.canal_tele_5
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - color_type: card
+        entity: script.canal_la_sexta
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_la_sexta
+          service_data:
+            entity_id: script.canal_la_sexta
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_divinity
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_divinity
+          service_data:
+            entity_id: script.canal_divinity
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_24_horas
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_24_horas
+          service_data:
+            entity_id: script.canal_24_horas
+        type: 'custom:button-card'
+      - color_type: card
+        entity: script.canal_telemadrid
+        show_entity_picture: true
+        show_label: false
+        show_name: false
+        show_state: false
+        styles:
+          entity_picture:
+            - align-self: middle
+            - height: 50px
+            - width: 50px
+        tap_action:
+          action: call-service
+          service: script.canal_telemadrid
+          service_data:
+            entity_id: script.canal_telemadrid
+        type: 'custom:button-card'
+    type: horizontal-stack
+type: vertical-stack
+```
