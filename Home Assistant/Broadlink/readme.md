@@ -9,7 +9,7 @@ En el link teneis el vídeo explicando como hacerlo: https://www.youtube.com/wat
 ### Ejemplo 1
 Ejemplo de una tarjeta combinada de pila vertical y horizontal con cards tipo 'button'.
 
-![Tecnosanvaras en YouTube](https://github.com/tecnosanvaras/Videos/blob/main/cabecera/CABECERA.jpg)
+![Tecnosanvaras en YouTube](https://github.com/tecnosanvaras/Videos/blob/main/Home%20Assistant/Broadlink/tarjeta_1.png)
 
 ```
 type: vertical-stack
