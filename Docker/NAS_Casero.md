@@ -1,4 +1,4 @@
-## Docker Compose utilizados en el vídeo
+# Docker Compose utilizados en el vídeo
 
 ## Heimdall
 ```
