@@ -70,7 +70,7 @@ services:
 ```
 
 ## Nextcloud
-Es recomendable cambiar nombres de usuario y contraseñas de las bases de datos. Esto es solo un ejemplo del contenedor
+Es recomendable cambiar nombres de usuario y contraseña de las bases de datos. Esto es solo un ejemplo del contenedor
 ```
 version: '2'
 
@@ -233,7 +233,7 @@ services:
 ```
 
 ## WordPress
-Es recomendable cambiar nombres de usuario y contraseñas de las bases de datos. Esto es solo un ejemplo del contenedor
+Es recomendable cambiar nombres de usuario y contraseñs de las bases de datos. Esto es solo un ejemplo del contenedor
 ```
 version: '2.1'
 
@@ -296,7 +296,7 @@ services:
 ```
 
 ## NGINX Proxy Manager
-Es recomendable cambiar nombres de usuario y contraseñas de las bases de datos. Esto es solo un ejemplo del contenedor
+Es recomendable cambiar nombres de usuario y contraseña de las bases de datos. Esto es solo un ejemplo del contenedor
 ```
 version: '3'
 services:
