@@ -180,3 +180,86 @@ services:
       - 8585:8585
     restart: unless-stopped
 ```
+
+## WatchTower
+```
+version: '2.1'
+services:
+    watchtower:
+        image: containrrr/watchtower
+        container_name: watchtower
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+        environment:
+            - TZ=Europe/Madrid
+        restart: unless-stopped
+```
+
+## Duplicati
+```
+version: "2.1"
+services:
+  duplicati:
+    image: ghcr.io/linuxserver/duplicati
+    container_name: duplicati
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+      - CLI_ARGS= #optional
+    volumes:
+      - </path/to/appdata/config>:/config
+      - </path/to/backups>:/backups
+      - </path/to/source>:/source
+    ports:
+      - 8200:8200
+    restart: unless-stopped
+```
+
+## Home Assistant
+Dependiendo si estais usando Raspberry pi 3 o 4 teneis que modificar la linea "image"
+```
+version: '3'
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: homeassistant/raspberrypi4-homeassistant:stable
+    volumes:
+      - /PATH_TO_YOUR_CONFIG:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    network_mode: host
+```
+
+## WordPress
+```
+version: '2.1'
+
+services:
+
+  wordpress:
+    image: wordpress
+    restart: always
+    ports:
+      - 84:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: usuario
+      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_NAME: nombrebd
+    volumes:
+      - wordPress:/var/www/html
+    links:
+      - db:db
+
+  db:
+    image: yobasystems/alpine-mariadb:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: exampledb
+      MYSQL_USER: exampleuser
+      MYSQL_PASSWORD: examplepass
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - wordPress:/var/lib/mysql
+```
