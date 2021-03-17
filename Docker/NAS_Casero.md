@@ -264,7 +264,7 @@ services:
       - wordPress:/var/lib/mysql
 ```
 
-NGINX Proxy Manager
+## NGINX Proxy Manager
 ```
 version: '3'
 services:
