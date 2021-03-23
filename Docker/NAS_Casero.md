@@ -4,6 +4,7 @@ Todos los contenedores que aquí encontrais, tienen su autor y por tanto sus der
 Ninguno de ellos me pertenece y podeis encontrarlos en la web de Docker Hub: https://hub.docker.com/.
 La mayoria tienen su documentación en el github del creador y solo hago un resumen aquí de los utilizados en mis vídeos.
 Quiero agradecer de todo corazón a todas las personas que nos permiten disfrutar con sus muchas horas de trabajo, de un material como el que yo mismo utilizo.
+
 Gracias, gracias, gracias.
 
 ...................................
