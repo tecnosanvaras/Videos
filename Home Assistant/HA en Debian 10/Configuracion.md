@@ -76,3 +76,17 @@ sudo chmod 777 /media/HDD
 sudo nano /etc/fstab	
 UUID=e25b1db5-5127-4779-8312-bd611edfc64d /media/HDD ext4 defaults 0 0
 ```
+
+## Instalación de Docker Compose en Debian 10
+```
+sudo apt install -y libffi-dev libssl-dev
+sudo apt install -y python3-pip
+sudo pip3 install docker-compose
+sudo apt update && sudo apt upgrade
+```
+
+## Instalación de Portainer
+```
+docker volume create portainer_data
+docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+```
