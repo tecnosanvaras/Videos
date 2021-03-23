@@ -325,3 +325,18 @@ services:
     volumes:
       - ./data/mysql:/var/lib/mysql
 ```
+
+## Taisun
+```
+version: "2"
+services:
+  taisun:
+    image: linuxserver/taisun
+    container_name: taisun
+    network_mode: bridge
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+```
