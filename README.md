@@ -53,7 +53,7 @@ Intento responder siempre lo antes que puedo a vuestras dudas, peticiones y preg
 ## DISPOSITIVOS QUE UTILIZO PARA LA REALIZACIÓN DE LOS VIDEOS
 - Raspberry Pi 3B+: https://amzn.to/3drYynq
 - Intel NUC7CJYH: https://amzn.to/37tUoYs
-- Cámara utilizada para la grabación de los videos: Iphone X
+- Cámara utilizada para la grabación de los videos: Sony ILCE-5100l: https://amzn.to/3rVcU3a
 - Microfono de solapa: https://amzn.to/3aEoUB3
 - TechSmith Camtasia: Montaje de vídeos
 - Wondershare Filmora X: Montaje de vídeos
