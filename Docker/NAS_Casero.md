@@ -355,3 +355,21 @@ services:
       - 3000:3000
     restart: unless-stopped
 ```
+## YouTube DL
+```
+version: "2"
+services:
+    ytdl_material:
+        environment: 
+            ALLOW_CONFIG_MUTATIONS: 'true'
+        restart: always
+        volumes:
+            - /path/to/appdata:/app/appdata
+            - /path/to/audio:/app/audio
+            - /path/to/video:/app/video
+            - /path/to/subscriptions:/app/subscriptions
+            - /path/to/Youtube/users:/app/users
+        ports:
+            - "8998:17442"
+        image: tzahi12345/youtubedl-material:latest
+        ```
