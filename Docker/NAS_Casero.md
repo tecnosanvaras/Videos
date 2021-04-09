@@ -368,7 +368,7 @@ services:
             - /path/to/audio:/app/audio
             - /path/to/video:/app/video
             - /path/to/subscriptions:/app/subscriptions
-            - /path/to/Youtube/users:/app/users
+            - /path/to/users:/app/users
         ports:
             - "8998:17442"
         image: tzahi12345/youtubedl-material:latest
