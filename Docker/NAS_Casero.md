@@ -373,3 +373,16 @@ services:
             - "8998:17442"
         image: tzahi12345/youtubedl-material:latest
 ```
+## BitWarden
+```
+version: "2"
+services:
+  bitwarden:
+    image: bitwardenrs/server:latest
+    container_name: bitwarden
+    volumes:
+      - /path/to/Config/BitWarden:/data/
+    ports:
+      - 8686:80
+    restart: unless-stopped
+```
